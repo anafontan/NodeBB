@@ -32,7 +32,9 @@ module.exports = function (Topics) {
 			posts.getPostData(mainPid),
 			privileges.categories.isAdminOrMod(cid, uid),
 		]);
-		const fromTid = mainPost.tid;
+		
+		// CHATGPT generated line
+		const fromTid = mainPost.tid; 
 
 		if (pids.every(isFinite)) {
 			pids.sort((a, b) => a - b);
