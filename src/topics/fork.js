@@ -32,7 +32,6 @@ module.exports = function (Topics) {
 			posts.getPostData(mainPid),
 			privileges.categories.isAdminOrMod(cid, uid),
 		]);
-		
 		// CHATGPT generated line
 		const fromTid = mainPost.tid; 
 
